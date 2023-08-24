@@ -1,0 +1,34 @@
+.card{
+    width: 21%;
+    height: 470px;
+    /* -webkit-box-shadow: 8px 8px 16px 6px rgba(0,0,0,0.81); 
+    box-shadow: 8px 8px 16px 6px rgba(0,0,0,0.81); */
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    color: black;
+    margin: 50px 20px;
+    text-decoration: none;
+}
+
+.img{
+    width: 90%;
+    height: 290px;
+    /* object-fit: cover; */
+    margin:  0.5rem 1rem;
+}
+.content{
+    margin: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.header{
+    font-size: 1rem;
+    font-weight: bold;
+}

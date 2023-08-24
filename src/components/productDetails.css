@@ -1,0 +1,138 @@
+.product-container {
+    /* Your container styles */
+  }
+  
+  .loading {
+    /* Loading styles */
+  }
+  
+  .product {
+    /* Product container styles */
+  }
+  
+  .product-details {
+    /* Product details container styles */
+   
+  }
+  
+  .product-badge {
+    /* Product badge styles */
+  }
+  
+  .product-content {
+    /* Product content container styles */
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin: 1rem 2rem;
+    justify-content: space-between;
+    
+    display: flex;
+    align-items: center;
+  }
+  
+  .productImage{
+    width: 100%;
+    height: 546px;
+    margin: 20px auto;
+    border: 2px solid black;
+  }
+  
+  .product-image {
+    width: 90%;
+    height: 500px;
+    padding: 2rem;
+    margin: auto auto;
+    align-items: center;
+  }
+  
+  .product-info {
+    width: 100%;
+    height: 546px;
+    border: 2px solid black;
+    padding: 1rem 2rem;
+    background-color: rgb(242, 250, 250);
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .price {
+    font-size:1.6rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color:rgba(33, 32, 32, 0.648);
+  }
+  
+  .price-link {
+    /* Price link styles */
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .productCategory {
+    background-color: rgb(229 229 229);
+    padding: 10px;
+    border-radius: 6px;
+    color: #d17d0d;
+    font-size: 1rem;
+    /* margin: 1rem 0rem; */
+} 
+  .description {
+    color:black;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+  }
+  
+  .add-to-cart {
+    width: 200px;
+    margin: 2rem 0;
+    background-color: rgb(219, 67, 115);
+    color:white;
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .cart-icon {
+    /* Cart icon styles */
+  }
+  
+  .icon {
+    /* Icon styles */
+  }
+  
+  .cart-button {
+    /* Cart button styles */
+    margin-left: 10px;
+    /* Additional button styles */
+  }
+  
+  /* Default styles */
+
+/* Tablet styles (768px and below) */
+@media (max-width: 768px) {
+    .product-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .product-image {
+      margin-bottom: 20px;
+    }
+  
+    .product-info {
+      margin: 0; /* Remove margin to save space */
+    }
+  
+    .add-to-cart {
+      margin-top: 20px;
+    }
+  }
+  
