@@ -1,12 +1,13 @@
 .card{
     width: 21%;
+    min-width: 200px;
     height: 470px;
     /* -webkit-box-shadow: 8px 8px 16px 6px rgba(0,0,0,0.81); 
     box-shadow: 8px 8px 16px 6px rgba(0,0,0,0.81); */
     border-radius: 0.5rem;
     background-color: #ffffff;
     color: black;
-    margin: 50px 20px;
+    margin: 50px 1rem;
     text-decoration: none;
 }
 
